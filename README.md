@@ -52,3 +52,4 @@ No implementado: APIs, Redis, PostgreSQL, Pixel Streaming, GPU workers ni proyec
 ## Licencia
 
 Proyecto privado (`UNLICENSED`).
+# Yellow-flowers

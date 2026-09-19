@@ -1,0 +1,394 @@
+[
+  {
+    "id": "stone_welcome_arch",
+    "order": 1,
+    "title": "Umbral de bienvenida",
+    "subtitle": "I · Bienvenida",
+    "description": "Un arco de piedra y margaritas doradas abre el sendero. El aire cambia apenas, como cuando alguien querido abre la puerta.",
+    "poeticMessage": "No llegaste tarde. Hay lugares que comienzan justo cuando tú apareces.",
+    "letters": [
+      {
+        "eyebrow": "Primera carta",
+        "title": "Para quien acaba de llegar",
+        "paragraphs": [
+          "Este jardín no espera pasos perfectos ni palabras preparadas. Solo quería encontrarte aquí, con tiempo suficiente para respirar y dejar afuera, por unos minutos, todo aquello que exige demasiado de ti.",
+          "Cruza despacio. Cada flor fue encendida para recordarte que tu presencia transforma los lugares, incluso cuando no lo notas. Hay puertas que se vuelven hogar porque alguien como tú decide atravesarlas."
+        ],
+        "signature": "Con la alegría de recibirte"
+      },
+      {
+        "eyebrow": "Segunda carta",
+        "title": "Un lugar sin condiciones",
+        "paragraphs": [
+          "Aquí no tienes que demostrar nada. Puedes llegar con el corazón ligero o cansado, con muchas certezas o con preguntas que todavía no encuentran nombre. Todo lo que eres hoy tiene permiso de entrar.",
+          "Ojalá esta bienvenida se parezca a un abrazo que no aprieta: uno que abre espacio, que escucha antes de hablar y que te recuerda que siempre mereces ser recibido con cuidado."
+        ],
+        "signature": "La puerta queda abierta"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Antes del primer paso",
+        "body": "Detente un instante bajo el arco. Mira la luz entre los pétalos y permite que la respiración encuentre su propio ritmo. No hay prisa dentro de este jardín.",
+        "prompt": "¿Qué te gustaría dejar por un momento al otro lado de esta puerta?"
+      },
+      {
+        "title": "La presencia",
+        "body": "Dar la bienvenida no consiste solamente en abrir una puerta; también es hacerle saber al otro que su llegada importa y que el espacio es distinto desde que está aquí.",
+        "prompt": "Piensa en alguien cuya llegada siempre cambie el ánimo de un lugar."
+      }
+    ],
+    "reflection": "A veces, ser recibido con ternura es el primer modo de volver a casa.",
+    "actionLabel": "Cruzar el umbral",
+    "completionMessage": "El jardín ya reconoce tus pasos.",
+    "landmark": "Las margaritas se inclinan suavemente para darte la bienvenida.",
+    "flowerName": "Margarita dorada",
+    "flowerMeaning": "Nuevos comienzos",
+    "color": "#ffd55a",
+    "position": [0, 0, 5],
+    "triggerDistanceMeters": 5.2
+  },
+  {
+    "id": "memory_oak",
+    "order": 2,
+    "title": "Roble de los recuerdos",
+    "subtitle": "II · Recuerdo",
+    "description": "Bajo un roble antiguo, pequeñas flores de botón de oro rodean un banco de piedra. Las hojas parecen guardar voces conocidas.",
+    "poeticMessage": "Hay recuerdos que no pesan: alumbran.",
+    "letters": [
+      {
+        "eyebrow": "Carta entre las ramas",
+        "title": "Todo lo que aún vive",
+        "paragraphs": [
+          "Guardo aquellas conversaciones sin reloj, las risas que aparecieron cuando menos las esperábamos y los silencios cómodos que nunca necesitaron explicación. Hay tardes enteras que caben todavía en una canción.",
+          "Quizá el tiempo cambie los detalles: el color de una habitación, la fecha precisa, las palabras exactas. Pero no puede cambiar la luz con la que ciertas personas permanecen dentro de nosotros."
+        ],
+        "signature": "Desde la memoria que sonríe"
+      },
+      {
+        "eyebrow": "Carta bajo el roble",
+        "title": "Lo pequeño también permanece",
+        "paragraphs": [
+          "A veces creemos que recordaremos únicamente los grandes acontecimientos, pero el corazón elige otras cosas: una forma de reír, una mirada cómplice, el mensaje que llegó justo en el día correcto.",
+          "Quisiera guardar contigo esas escenas pequeñas. No para vivir mirando hacia atrás, sino para reconocer de cuánta belleza sencilla está hecha la historia que nos trajo hasta aquí."
+        ],
+        "signature": "Con cariño por lo vivido"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Herbario de instantes",
+        "body": "Cada hoja del roble parece conservar una escena distinta. Algunas brillan por la alegría; otras, por haber sido compañía durante una temporada difícil.",
+        "prompt": "¿Cuál recuerdo pequeño quisieras proteger del paso del tiempo?"
+      },
+      {
+        "title": "Recordar sin quedarse",
+        "body": "La memoria más amable no nos encierra en el pasado. Nos presta fuerzas, nos devuelve una parte querida de nosotros mismos y luego nos permite seguir caminando.",
+        "prompt": "Agradece en silencio a la versión de ti que vivió aquel momento."
+      }
+    ],
+    "reflection": "Lo vivido con cariño nunca termina de irse.",
+    "actionLabel": "Guardar este recuerdo",
+    "completionMessage": "Una hoja dorada conserva este recuerdo.",
+    "landmark": "Entre las ramas vuelve a escucharse una risa lejana.",
+    "flowerName": "Botón de oro",
+    "flowerMeaning": "Memoria luminosa",
+    "color": "#ffbd3e",
+    "position": [-3, 0, -8],
+    "triggerDistanceMeters": 5.2
+  },
+  {
+    "id": "yellow_rose_pavilion",
+    "order": 3,
+    "title": "Pabellón de rosas amarillas",
+    "subtitle": "III · Gratitud",
+    "description": "Rosas amarillas trepan por una pérgola bañada de sol. En el centro espera una carta doblada, tibia de luz.",
+    "poeticMessage": "Gracias por todas las veces que hiciste más amable un día difícil.",
+    "letters": [
+      {
+        "eyebrow": "Carta entre rosas",
+        "title": "Las cosas que quizá no dije",
+        "paragraphs": [
+          "Gracias por escuchar incluso aquello que no supe explicar; por quedarte sin hacer ruido cuando las palabras sobraban y por celebrar conmigo victorias tan pequeñas que nadie más habría notado.",
+          "Tu bondad dejó huellas en días que tal vez parecían comunes. Esta carta existe para nombrarlas una por una y para que todo ese cuidado nunca vuelva a pasar inadvertido."
+        ],
+        "signature": "Con una gratitud que sigue creciendo"
+      },
+      {
+        "eyebrow": "Carta a la bondad",
+        "title": "Por lo que hiciste sin saberlo",
+        "paragraphs": [
+          "Tal vez nunca supiste cuánto ayudó aquella pregunta, aquella paciencia o aquella manera tuya de hacerme sentir acompañado. Los gestos más importantes rara vez anuncian su llegada.",
+          "Gracias por dar sin convertir el afecto en una deuda. Espero haber cuidado también tus días y, si alguna vez no encontré la forma, deseo aprender a hacerlo mejor desde ahora."
+        ],
+        "signature": "Gracias, incluso por lo que olvidaste"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Inventario de gracias",
+        "body": "Las rosas invitan a recordar cuidados concretos: una llamada, una espera, una verdad dicha con delicadeza. La gratitud se vuelve real cuando puede nombrar sus razones.",
+        "prompt": "Completa en silencio la frase: gracias por aquella vez que…"
+      },
+      {
+        "title": "Devolver la luz",
+        "body": "Agradecer no busca equilibrar una cuenta. Es permitir que la bondad recibida continúe su viaje y encuentre a otra persona en el momento en que más la necesita.",
+        "prompt": "¿Qué gesto amable podrías ofrecer hoy sin esperar respuesta?"
+      }
+    ],
+    "reflection": "La gratitud es una forma de cuidar lo que hemos recibido.",
+    "actionLabel": "Recibir la carta",
+    "completionMessage": "La gratitud florece donde fue nombrada.",
+    "landmark": "El aroma de las rosas trae palabras de agradecimiento.",
+    "flowerName": "Rosa amarilla",
+    "flowerMeaning": "Gratitud y afecto",
+    "color": "#ffe37b",
+    "position": [3, 0, -21],
+    "triggerDistanceMeters": 5.2
+  },
+  {
+    "id": "friendship_bridge",
+    "order": 4,
+    "title": "Puente de la amistad",
+    "subtitle": "IV · Amistad",
+    "description": "Un puente corto atraviesa un espejo de agua. A cada lado crecen caléndulas, como pequeñas lámparas acompañando el paso.",
+    "poeticMessage": "La amistad es saber que existe un puente, incluso cuando no podemos ver la otra orilla.",
+    "letters": [
+      {
+        "eyebrow": "Carta desde el puente",
+        "title": "Del mismo lado",
+        "paragraphs": [
+          "No prometo tener siempre la respuesta, pero sí un lugar a mi lado, una conversación honesta y la voluntad de cruzar la distancia cuando la vida nos deje temporalmente en orillas diferentes.",
+          "Gracias por ser compañía sin condición y refugio sin interrogatorios. Contigo, el camino no solamente se siente menos largo: también se vuelve una historia que vale la pena contar."
+        ],
+        "signature": "Tu amistad, en todas las orillas"
+      },
+      {
+        "eyebrow": "Carta para los días difíciles",
+        "title": "Cuando no sepas cómo pedir ayuda",
+        "paragraphs": [
+          "Si alguna vez las palabras no llegan, no necesitas inventarlas. Puedes acercarte con tu silencio, con un mensaje incompleto o con la verdad sencilla de no estar bien.",
+          "La amistad también consiste en aprender el idioma de los días difíciles. Quiero reconocer el tuyo, respetar tus tiempos y recordarte que aceptar compañía no te vuelve menos fuerte."
+        ],
+        "signature": "Aquí, incluso en silencio"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Las dos orillas",
+        "body": "Dos personas no necesitan pensar igual para caminar juntas. El puente existe porque hay una distancia y porque, aun así, ambas deciden encontrarse en el centro.",
+        "prompt": "¿Qué diferencia aprendiste a querer gracias a una amistad?"
+      },
+      {
+        "title": "Presencia cotidiana",
+        "body": "Las amistades profundas se construyen tanto en los momentos decisivos como en los mensajes pequeños, las bromas repetidas y las preguntas sinceras de cualquier martes.",
+        "prompt": "Recuerda la última vez que alguien hizo más ligero un día común."
+      }
+    ],
+    "reflection": "Estar presente también es una manera silenciosa de decir: te quiero.",
+    "actionLabel": "Cruzar juntos",
+    "completionMessage": "El puente queda encendido para cuando quieras volver.",
+    "landmark": "El agua refleja dos senderos que ahora avanzan juntos.",
+    "flowerName": "Caléndula",
+    "flowerMeaning": "Lealtad y compañía",
+    "color": "#ffc928",
+    "position": [-2, 0, -34],
+    "triggerDistanceMeters": 5.2
+  },
+  {
+    "id": "golden_vine_arch",
+    "order": 5,
+    "title": "Arco de enredaderas doradas",
+    "subtitle": "V · Amor",
+    "description": "Enredaderas de jazmín amarillo abrazan un arco de madera. Nada crece solo: tallo, luz y sombra se sostienen.",
+    "poeticMessage": "Amar no es retener la luz; es ayudarla a crecer.",
+    "letters": [
+      {
+        "eyebrow": "Carta entre enredaderas",
+        "title": "La forma en que te elijo",
+        "paragraphs": [
+          "Te quiero en la libertad de ser quien eres, en tus días claros y también en aquellos que necesitan paciencia. No por una versión ideal, sino por la verdad cambiante y humana que compartes conmigo.",
+          "Quiero que este afecto se parezca a un jardín: con espacio suficiente para crecer, raíces sinceras, estaciones distintas y ese cuidado cotidiano que casi nunca se ve, pero sostiene todo."
+        ],
+        "signature": "A tu lado, sin dejar de ser nosotros"
+      },
+      {
+        "eyebrow": "Carta sobre cuidar",
+        "title": "El amor que aprende",
+        "paragraphs": [
+          "Amar también es preguntar en lugar de suponer, pedir perdón sin defender el orgullo y aprender de nuevo a la persona que tenemos enfrente cada vez que la vida la transforma.",
+          "Deseo un cariño que no tema conversar sobre sus heridas, que celebre la independencia y que sepa que permanecer no significa quedarse inmóvil, sino elegir crecer en la misma dirección."
+        ],
+        "signature": "Con ternura y verdad"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Raíces y espacio",
+        "body": "Las enredaderas se sostienen sin borrar aquello que las sostiene. El amor puede acercar dos vidas y, al mismo tiempo, proteger el espacio donde cada una continúa floreciendo.",
+        "prompt": "¿De qué forma puedes cuidar sin controlar?"
+      },
+      {
+        "title": "El oficio de querer",
+        "body": "El afecto duradero no vive únicamente de emociones intensas. Se alimenta de decisiones pequeñas, conversaciones incómodas y gestos de respeto repetidos con paciencia.",
+        "prompt": "Nombra una acción cotidiana con la que haces visible tu cariño."
+      }
+    ],
+    "reflection": "El amor más bello no encierra: acompaña.",
+    "actionLabel": "Cuidar esta luz",
+    "completionMessage": "La enredadera guarda una nueva flor.",
+    "landmark": "El jazmín abre sus pétalos al sentirte cerca.",
+    "flowerName": "Jazmín amarillo",
+    "flowerMeaning": "Amor que acompaña",
+    "color": "#fff09b",
+    "position": [3, 0, -47],
+    "triggerDistanceMeters": 5.2
+  },
+  {
+    "id": "promise_garden",
+    "order": 6,
+    "title": "Jardín de las promesas",
+    "subtitle": "VI · Promesa",
+    "description": "Un círculo de prímulas rodea una piedra clara. Sobre ella, palabras casi invisibles aparecen cuando llega la luz.",
+    "poeticMessage": "Prometo no dejar para después la ternura que puedo ofrecer hoy.",
+    "letters": [
+      {
+        "eyebrow": "Carta sobre la piedra",
+        "title": "Una promesa sencilla",
+        "paragraphs": [
+          "Prometo cuidar los detalles: preguntar cómo estás y escuchar de verdad, celebrar tus alegrías sin compararlas con las mías y respetar tus silencios sin convertirlos inmediatamente en distancia.",
+          "No prometo días perfectos. Prometo presencia, honestidad y el valor de volver a encontrarnos después de cada desacuerdo, llevando menos orgullo y una voluntad más grande de comprender."
+        ],
+        "signature": "Mi palabra, acompañada de actos"
+      },
+      {
+        "eyebrow": "Carta para el futuro",
+        "title": "Lo que quiero seguir eligiendo",
+        "paragraphs": [
+          "Quiero reservar tiempo para lo importante antes de que lo urgente lo ocupe todo. Quiero seguir creando recuerdos nuevos en lugar de vivir únicamente de los que ya tenemos.",
+          "Y si cambian los caminos, prometo cuidar con respeto aquello que fuimos. Ninguna promesa debería encadenar el futuro; debería darle una dirección amable y razones para confiar."
+        ],
+        "signature": "Con esperanza en lo que construiremos"
+      }
+    ],
+    "sections": [
+      {
+        "title": "La medida de una promesa",
+        "body": "Una promesa no se vuelve verdadera por sonar perfecta. Se vuelve habitable cuando cabe en los días normales y puede cumplirse incluso cuando nadie está mirando.",
+        "prompt": "¿Qué compromiso pequeño sí puedes cuidar con constancia?"
+      },
+      {
+        "title": "Sembrar la palabra",
+        "body": "La piedra conserva la frase, pero son los actos quienes le dan raíces. Cada cumplimiento cotidiano convierte las palabras en un lugar seguro para otra persona.",
+        "prompt": "Piensa en una promesa recibida que te haya dado tranquilidad."
+      }
+    ],
+    "reflection": "Las promesas verdaderas se pronuncian una vez y se demuestran muchas.",
+    "actionLabel": "Dejar mi promesa",
+    "completionMessage": "Tu promesa queda sembrada, no encerrada.",
+    "landmark": "Una frase de luz aparece sobre la piedra.",
+    "flowerName": "Prímula amarilla",
+    "flowerMeaning": "Constancia y compromiso",
+    "color": "#ffca4c",
+    "position": [-3, 0, -60],
+    "triggerDistanceMeters": 5.2
+  },
+  {
+    "id": "sunflower_clearing",
+    "order": 7,
+    "title": "Claro de girasoles",
+    "subtitle": "VII · Esperanza",
+    "description": "El sendero se abre y cientos de girasoles miran hacia un mismo horizonte. Aquí el cielo parece más grande.",
+    "poeticMessage": "Aun en los días nublados, hay una parte de ti que recuerda hacia dónde queda la luz.",
+    "letters": [
+      {
+        "eyebrow": "Carta desde el claro",
+        "title": "Para tus días por venir",
+        "paragraphs": [
+          "Deseo que encuentres razones pequeñas para continuar: una canción que llegue a tiempo, una ventana abierta, el olor de la lluvia o una voz conocida al otro lado de una llamada.",
+          "Y cuando te falte esperanza, recuerda que no tienes que fabricarla a solas. Podemos sostener la luz entre dos hasta que tus ojos vuelvan a reconocerla como propia."
+        ],
+        "signature": "Hacia todos tus amaneceres"
+      },
+      {
+        "eyebrow": "Carta para cuando haya nubes",
+        "title": "La luz no siempre hace ruido",
+        "paragraphs": [
+          "Habrá días en los que avanzar parezca apenas levantarse, respirar y cumplir una tarea pequeña. No disminuyas ese esfuerzo: también así se atraviesan las temporadas difíciles.",
+          "La esperanza no siempre llega como una certeza luminosa. A veces es una curiosidad humilde por saber qué ocurrirá mañana, y esa pregunta basta para abrir una rendija en la noche."
+        ],
+        "signature": "Con fe en la luz que aún no ves"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Orientarse",
+        "body": "Los girasoles no persiguen una promesa de cielos despejados. Conservan en su forma la memoria del sol y hacia ella vuelven incluso después de una larga sombra.",
+        "prompt": "¿Qué recuerdo te ayuda a orientarte cuando pierdes claridad?"
+      },
+      {
+        "title": "Esperanza compartida",
+        "body": "Hay momentos en que otra persona ve por nosotros la posibilidad que no alcanzamos a imaginar. Dejarse acompañar también es una forma valiente de continuar.",
+        "prompt": "¿Quién ha sostenido una luz por ti? ¿Para quién podrías sostenerla ahora?"
+      }
+    ],
+    "reflection": "La esperanza no niega la noche; aprende a orientarse dentro de ella.",
+    "actionLabel": "Mirar hacia la luz",
+    "completionMessage": "Todos los girasoles vuelven el rostro contigo.",
+    "landmark": "El claro entero gira lentamente hacia el horizonte.",
+    "flowerName": "Girasol",
+    "flowerMeaning": "Esperanza compartida",
+    "color": "#ffe271",
+    "position": [2, 0, -73],
+    "triggerDistanceMeters": 5.2
+  },
+  {
+    "id": "final_light_pavilion",
+    "order": 8,
+    "title": "Pabellón de la luz final",
+    "subtitle": "VIII · Despedida",
+    "description": "El último pabellón reúne todas las flores del recorrido. Ocho luces flotan sobre un círculo abierto al atardecer.",
+    "poeticMessage": "No te llevas el jardín entero. Te llevas la parte que floreció en ti.",
+    "letters": [
+      {
+        "eyebrow": "Penúltima carta",
+        "title": "Antes de volver",
+        "paragraphs": [
+          "Gracias por caminar sin prisa y permitir que cada palabra encontrara su momento. Este recorrido fue creado para celebrar el regalo improbable de coincidir entre tantas vidas y tantos caminos.",
+          "Cuando cierres esta puerta, ojalá recuerdes algo sencillo: eres importante, eres querido y tu manera particular de estar en el mundo deja una luz que quizá alcanzas a ver menos que los demás."
+        ],
+        "signature": "Desde todo el jardín"
+      },
+      {
+        "eyebrow": "Carta que no termina",
+        "title": "Lo que llevas contigo",
+        "paragraphs": [
+          "No necesitas recordar cada frase. Tal vez baste una imagen: el puente encendido, una rosa junto a la carta, el roble guardando risas o los girasoles mirando juntos hacia el horizonte.",
+          "Lleva contigo aquello que hoy haya encontrado un lugar. Y cuando alguien cercano olvide cuánto vale, construye para esa persona un jardín pequeño con tu presencia, tus palabras y tu cuidado."
+        ],
+        "signature": "Hasta nuestro próximo encuentro"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Ocho luces",
+        "body": "Bienvenida, memoria, gratitud, amistad, amor, promesa, esperanza y despedida se reúnen aquí. No son estaciones separadas, sino distintas formas de cuidar una vida.",
+        "prompt": "¿Cuál de estas ocho luces necesitabas encontrar hoy?"
+      },
+      {
+        "title": "Después del jardín",
+        "body": "La experiencia termina en la pantalla, pero su intención comienza afuera: escuchar con más atención, agradecer a tiempo y hacer visible el afecto antes de que parezca tarde.",
+        "prompt": "Elige una persona y una palabra que te gustaría compartir al salir."
+      }
+    ],
+    "reflection": "Toda despedida hecha con amor contiene una forma secreta de permanencia.",
+    "actionLabel": "Llevarme esta luz",
+    "completionMessage": "El jardín termina; su luz continúa contigo.",
+    "landmark": "Las ocho luces del jardín laten juntas por última vez.",
+    "flowerName": "Jardín de ocho flores",
+    "flowerMeaning": "Lo que permanece",
+    "color": "#fff4bd",
+    "position": [0, 0, -87],
+    "triggerDistanceMeters": 5.2
+  }
+]

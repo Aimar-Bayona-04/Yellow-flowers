@@ -46,7 +46,7 @@
     "flowerMeaning": "Nuevos comienzos",
     "color": "#ffd55a",
     "position": [0, 0, 5],
-    "triggerDistanceMeters": 5.2
+    "triggerDistanceMeters": 6.8
   },
   {
     "id": "memory_oak",
@@ -94,8 +94,8 @@
     "flowerName": "Botón de oro",
     "flowerMeaning": "Memoria luminosa",
     "color": "#ffbd3e",
-    "position": [-3, 0, -8],
-    "triggerDistanceMeters": 5.2
+    "position": [-9, 0, -16],
+    "triggerDistanceMeters": 6.8
   },
   {
     "id": "yellow_rose_pavilion",
@@ -143,8 +143,8 @@
     "flowerName": "Rosa amarilla",
     "flowerMeaning": "Gratitud y afecto",
     "color": "#ffe37b",
-    "position": [3, 0, -21],
-    "triggerDistanceMeters": 5.2
+    "position": [10, 0, -36],
+    "triggerDistanceMeters": 6.8
   },
   {
     "id": "friendship_bridge",
@@ -192,8 +192,8 @@
     "flowerName": "Caléndula",
     "flowerMeaning": "Lealtad y compañía",
     "color": "#ffc928",
-    "position": [-2, 0, -34],
-    "triggerDistanceMeters": 5.2
+    "position": [-8, 0, -58],
+    "triggerDistanceMeters": 6.8
   },
   {
     "id": "golden_vine_arch",
@@ -241,8 +241,8 @@
     "flowerName": "Jazmín amarillo",
     "flowerMeaning": "Amor que acompaña",
     "color": "#fff09b",
-    "position": [3, 0, -47],
-    "triggerDistanceMeters": 5.2
+    "position": [11, 0, -80],
+    "triggerDistanceMeters": 6.8
   },
   {
     "id": "promise_garden",
@@ -290,8 +290,8 @@
     "flowerName": "Prímula amarilla",
     "flowerMeaning": "Constancia y compromiso",
     "color": "#ffca4c",
-    "position": [-3, 0, -60],
-    "triggerDistanceMeters": 5.2
+    "position": [-10, 0, -104],
+    "triggerDistanceMeters": 6.8
   },
   {
     "id": "sunflower_clearing",
@@ -339,8 +339,8 @@
     "flowerName": "Girasol",
     "flowerMeaning": "Esperanza compartida",
     "color": "#ffe271",
-    "position": [2, 0, -73],
-    "triggerDistanceMeters": 5.2
+    "position": [8, 0, -128],
+    "triggerDistanceMeters": 6.8
   },
   {
     "id": "final_light_pavilion",
@@ -388,7 +388,7 @@
     "flowerName": "Jardín de ocho flores",
     "flowerMeaning": "Lo que permanece",
     "color": "#fff4bd",
-    "position": [0, 0, -87],
-    "triggerDistanceMeters": 5.2
+    "position": [0, 0, -152],
+    "triggerDistanceMeters": 6.8
   }
 ]

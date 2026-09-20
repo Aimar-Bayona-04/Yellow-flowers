@@ -20,12 +20,16 @@ const dispatchMove = (x: number, z: number) => {
   window.dispatchEvent(new CustomEvent("garden-move", { detail: { x, z } }));
 };
 
+const dispatchLookBack = () => {
+  window.dispatchEvent(new CustomEvent("garden-look-back"));
+};
+
 export function GardenExperience() {
   const { session, state, begin, completeStation, restart } = useGardenSession();
   const controls = useGardenSettings();
-  const audio = useAmbientAudio(controls.settings.volume, controls.settings.reducedMotion);
   const [landed, setLanded] = useState(false);
   const [activeStation, setActiveStation] = useState<GardenStation | null>(null);
+  const audio = useAmbientAudio(controls.settings.volume, controls.settings.reducedMotion, activeStation?.id);
   const [memento, setMemento] = useState<string | null>(null);
   const [settingsOpen, setSettingsOpen] = useState(false);
   const renderer = useRef<RendererAdapter | null>(null);
@@ -62,6 +66,19 @@ export function GardenExperience() {
     setActiveStation(station);
   }, []);
 
+  useEffect(() => {
+    const onKey = (event: KeyboardEvent) => {
+      if (event.key !== "Escape") return;
+      if (settingsOpen) {
+        setSettingsOpen(false);
+        return;
+      }
+      if (showNarrative) approachStation(null);
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [approachStation, settingsOpen, showNarrative]);
+
   const markComplete = useCallback(() => {
     if (!activeStation) return;
     completeStation(activeStation.id);
@@ -72,7 +89,7 @@ export function GardenExperience() {
   }, [activeStation, completeStation]);
 
   return (
-    <main className={`experience ${controls.settings.highContrast ? "high-contrast" : ""} ${controls.settings.reducedMotion ? "reduced-motion" : ""}`}>
+    <main className={`experience ${controls.settings.highContrast ? "high-contrast" : ""} ${controls.settings.reducedMotion ? "reduced-motion" : ""} ${landed && !showNarrative && !settingsOpen ? "is-exploring" : ""}`}>
       {!landed && (
         <section className="landing">
           <div className="landing-grain" />
@@ -115,10 +132,10 @@ export function GardenExperience() {
             <div className="progress-track"><i style={{ width: `${progress * 100}%` }} /></div>
             <b>{completedIds.length.toString().padStart(2, "0")} / {session.stations.length.toString().padStart(2, "0")}</b>
           </div>
-          <div className="desktop-hint"><span className="key-cluster">W<br /><i>A S D</i></span><span>Camina con las teclas<br />Arrastra para mirar</span></div>
+          <div className="desktop-hint"><span className="key-cluster">W<br /><i>A S D</i></span><span>Camina con las teclas<br />Mouse para mirar · doble clic o toque para voltear</span></div>
           <div className="touch-controls" aria-label="Controles de movimiento">
             <button aria-label="Avanzar" onPointerDown={() => dispatchMove(0, 1)} onPointerUp={() => dispatchMove(0, 0)}>↑</button>
-            <div><button aria-label="Izquierda" onPointerDown={() => dispatchMove(-1, 0)} onPointerUp={() => dispatchMove(0, 0)}>←</button><button aria-label="Retroceder" onPointerDown={() => dispatchMove(0, -1)} onPointerUp={() => dispatchMove(0, 0)}>↓</button><button aria-label="Derecha" onPointerDown={() => dispatchMove(1, 0)} onPointerUp={() => dispatchMove(0, 0)}>→</button></div>
+            <div><button aria-label="Izquierda" onPointerDown={() => dispatchMove(-1, 0)} onPointerUp={() => dispatchMove(0, 0)}>←</button><button aria-label="Retroceder" onPointerDown={() => dispatchMove(0, -1)} onPointerUp={() => dispatchMove(0, 0)}>↓</button><button aria-label="Derecha" onPointerDown={() => dispatchMove(1, 0)} onPointerUp={() => dispatchMove(0, 0)}>→</button><button aria-label="Mirar atrás" onClick={dispatchLookBack}>↺</button></div>
           </div>
           {controls.settings.captions && activeStation && <p className="ambient-caption" aria-live="polite">{activeStation.caption}</p>}
           {showNarrative && (

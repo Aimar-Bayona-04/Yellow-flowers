@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import type { GardenStation } from "@/lib/client/contracts";
 import { ArrowIcon } from "@/components/ui/icons";
 
@@ -27,12 +27,23 @@ export function NarrativeCard({
   const section = sectionIndex >= 0 ? station.sections[sectionIndex] ?? null : null;
   const isFinalPage = page === pageCount - 1;
 
+  useEffect(() => {
+    const onKey = (event: KeyboardEvent) => {
+      if (event.key === "Escape") onClose();
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [onClose]);
+
   return (
     <article
       className={`narrative-card ${page > 0 ? "is-reading" : ""}`}
       aria-labelledby={`station-title-${station.id}`}
     >
-      <button className="narrative-close" aria-label="Cerrar mensaje" onClick={onClose}>×</button>
+      <button className="narrative-close" type="button" aria-label="Cerrar carta" onClick={onClose}>
+        <span aria-hidden="true">×</span>
+        <span className="narrative-close-label">Cerrar</span>
+      </button>
       <div className="station-number">{String(stationIndex + 1).padStart(2, "0")}</div>
 
       {page === 0 && (
